@@ -68,17 +68,7 @@ class MainActivity : AppCompatActivity() {
             w.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
         }
 
-//        if(AppCompatDelegate.getDefaultNightMode()==AppCompatDelegate.MODE_NIGHT_YES){
 
-//
-//        }else{
-//
-//            setContentView(R.layout.activity_main)
-//            w.setStatusBarColor(ContextCompat.getColor(this,R.color.status))
-//
-//            w.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR)
-//
-//        }
 
 
 

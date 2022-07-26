@@ -1,11 +1,10 @@
 package com.example.calculator
 
-import android.content.Context
-import android.content.res.Configuration
+
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.renderscript.Script
+
 import android.text.method.ScrollingMovementMethod
 import android.util.TypedValue
 import android.view.View
@@ -13,15 +12,13 @@ import android.view.Window
 import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AppCompatDelegate
+
 import androidx.core.content.ContextCompat
-import net.objecthunter.exp4j.ExpressionBuilder
-import org.mariuszgromada.math.mxparser.Expression
+
 
 import soup.neumorphism.NeumorphButton
 import soup.neumorphism.NeumorphCardView
-import soup.neumorphism.NeumorphImageButton
-import java.text.DecimalFormat
+
 import javax.script.ScriptEngine
 import javax.script.ScriptEngineManager
 
